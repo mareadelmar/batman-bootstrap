@@ -1,0 +1,9 @@
+
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+
+
+# dotenv environment variables file
+.env

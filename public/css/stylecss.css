@@ -1,0 +1,168 @@
+/* COLORES
+
+púrpura: #9c27b0
+teal: #00bfa5
+amber: #FFC107
+
+*/
+
+/* GENERAL */
+body {
+    margin: 0px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.espacios {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* HEADER */
+header {
+    background-color: #00bfa5;
+    height: 65px;
+}
+
+.btn {
+    background-color: #00bfa5;
+    color: white;
+    max-width: 315px;
+}
+
+.fa-mask {
+    font-size: 230%;
+    margin-top: 12px;
+    margin-left: 20px;
+    color: black;
+    opacity: 0.8;
+}
+
+.fa-mask:hover {
+    color: white;
+}
+
+nav ul {
+    float: right;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* SPLASH */
+
+.container-flex {
+    display: flex;
+}
+
+.splash {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/fondo.jpg) center center fixed;
+    background-size: cover;
+}
+
+.splash h1 {
+    display: block;
+    background: #333;
+    font-family: "Spectral", serif;
+    color: white;
+    opacity: 0.8;
+    margin-top: 20vh;
+    margin-bottom: 6vh;
+    font-size: 64px;
+    padding: 6px;
+    max-width: 315px;
+}
+
+.splash h3 {
+    *background-color: black;
+    color: black;
+    font-size: 32px;
+    width: 45vh;
+    padding: 6px;
+}
+
+/* DESCRIPCIÓN Y CARDS */
+
+.descripcion-titulo {
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+.card .btn {
+    float: right;
+}
+
+.content {
+    padding: 10px;
+}
+
+/* CITA Y BLOQUECITOS */
+
+#cita-iconitos {
+    background-color: #f2f2f2;
+}
+
+#dolina {
+    background-color: #999;
+    padding: 2px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+    color: #00bfa5;
+}
+
+.frases i {
+    font-size: 100px;
+    color: #00bfa5;
+    margin-bottom: 25px;
+}
+
+.frases h3 {
+    padding: 30px;
+}
+
+/*mediaquerys*/
+
+@media (max-width: 800px) {
+    .btn {
+        width: 100%;
+    }
+
+    .row-splash {
+        width: 90%;
+    }
+
+    .container-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
